@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 背景圆角矩形 -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M14,14h80v80h-80z" />
+    <!-- 电池外框 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:pathData="M30,40h44v28h-44z" />
+    <!-- 电池正极 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,47h6v14h-6z" />
+    <!-- 斜杠：去掉/干掉 -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M28,78L80,30" />
+</vector>

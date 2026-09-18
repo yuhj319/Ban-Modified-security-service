@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">干掉HyperOS4官改非官方内容</string>
+    <string name="module_description">去掉安全中心充电保护页的非官方电池信息项（实际健康度/设计容量/实际容量），无UI，LSPosed API102</string>
+</resources>

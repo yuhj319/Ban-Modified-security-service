@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.yuhj319.banmodifiedsecurityservice">
+
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+
+    <!-- 无 UI：无任何 Activity/Service/Provider，只有 Xposed 入口 -->
+    <application
+        android:label="@string/module_name"
+        android:description="@string/module_description"
+        android:icon="@drawable/ic_launcher"
+        android:hasCode="true">
+        <!-- 兼容仍读旧 meta 的管理器；新 API 以 label/description + META-INF/xposed 为准 -->
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="干掉HyperOS4官改非官方内容：去掉安全中心充电保护页的非官方电池信息项" />
+        <meta-data android:name="xposedminversion" android:value="102" />
+    </application>
+</manifest>
